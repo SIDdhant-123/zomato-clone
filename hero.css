@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: "Poppins", sans-serif;
+    background-color: #eee;
+}
+
+.hero{
+    margin: 80px auto;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+.hero-img{
+    width: 50%;
+}
+.cta{
+    background-color: black;
+    color: white;
+    padding: 16px 38px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+}
+
+
+/*Go to "https://fonts.google.com"==>>>then search for font here poppins & inside poppins we selected on regular 400===> then click on "get fonts button" ======> then click on "get embeded code"=====> then click on "@import" radio button =>>>>>> then copy whatever within style tag and paste in on the top of our css file & also scroll within that small window & copy font-family*/
+
+.title{
+    font-size: 46px;
+    margin-bottom: 0;
+}
